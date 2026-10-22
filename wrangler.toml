@@ -1,0 +1,12 @@
+name = "bonnie-mobile-spares-api"
+main = "worker.js"
+compatibility_date = "2026-10-22"
+
+[vars]
+# Replace these sample branch names with your exact real branch names.
+# The WhatsApp values are intentionally blank until you configure them.
+BRANCHES_JSON = '[{"name":"Githurai branch","whatsapp":"254702432508"},{"name":"Ruiru branch","whatsapp":"254798660180"},{"name":"Kenol branchb","whatsapp":"254728854284"},{"name":"Nyeri branch","whatsapp":"254716305302"},{"name":"Naivasha branch","whatsapp":"254708455708"}]'
+GOOGLE_SHEET_RANGE = "Bookings!A:K"
+WHATSAPP_API_VERSION = "v23.0"
+WHATSAPP_TEMPLATE_NAME = "new_booking_alert"
+WHATSAPP_TEMPLATE_LANGUAGE = "en"
